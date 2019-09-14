@@ -1,0 +1,21 @@
+div {
+    border: 1px solid #000;
+}
+
+div span {
+    color: #987654;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li::before { /* :before - Este un predecesor */
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(icon.png);
+    background-size: cover;
+    margin-right: 5px;
+}
