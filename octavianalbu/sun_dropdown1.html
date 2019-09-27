@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<link rel="shortcut icon" href="" />
+
+<title>simple_personal_template_1592.jpg (425x425)</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+}
+
+.background{
+	background-image: url('planets.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	width
+}
+
+.sun{
+	position:absolute;
+	width:15%;
+	height:100%;
+	border:1px solid transparent;
+}
+
+.sun_content{
+		display:none;
+		position: absolute;
+		left:100px;
+		color:red;
+		top:100px;
+		padding:0%;
+		font-family:papyrus;
+		font-size:150%;
+		font-weight:bold;
+}
+
+.sun:hover .sun_content{
+				display:block;
+}
+
+.sun_content2{
+		display:none;
+		position: absolute;
+		left:0px;
+		top:38px;
+		width:400px;
+		height:130px;
+		font-family:bungee inline;
+		font-size:20px;
+		background-color:rgb(49, 145, 119);
+		opacity:0.5;
+
+}
+
+.sun_content:hover .sun_content2{
+	display:block;
+}
+
+#shape {
+	  stroke-width: 6px;
+	  fill: transparent;
+	  stroke: transparent;
+	  stroke-dasharray: 85 400;
+	  stroke-dashoffset: -220;
+	  transition: 1.5s all ease;
+}
+
+.svg-wrapper:hover #shape{
+	  stroke-dasharray: 50 0;
+	  stroke-width: 3px;
+	  stroke-dashoffset: 0;
+	  stroke: #02AF5F;
+	  position:relative;
+}
+
+a:link{
+		text-decoration:none;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="background"></div>
+
+	<div class="sun">
+		<div class="sun_content">THE SUN<div>
+			<div class="svg-wrapper">
+				<svg height="130" width="400" xmlns="http://www.w3.org/2000/svg">
+					<rect id="shape" height="130" width="400" />
+						<div class="sun_content2">
+						<a href="https://en.wikipedia.org/wiki/Sun" target="_blank">The Sun is the star at the center of the Solar System.</a>
+						</div>
+		<div>
+	</div>
+
+</div>
+
+
+
+</body>
+
+</html>
