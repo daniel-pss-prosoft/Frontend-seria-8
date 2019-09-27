@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>PC Garage</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+	
+		.nav {
+			margin:1% 2% ;
+			
+		}
+	
+		.nav ul {
+			background-color: white;
+			float: left;
+			transition: 0.5s;
+		}
+	
+		.nav li {
+			float: left;
+			position: relative;
+			background-color:white;
+			list-style: none;
+			transition: 0.5s;
+			white-space:nowrap;
+		}
+	
+		.nav a {
+			display: block;
+			text-decoration: none;
+			padding: 5px 7px;
+			font-family:sans-serif;
+			font-weight:bold;
+			color:white;
+			font-size:85%;
+			letter-spacing:-0.3px;
+			box-shadow: inset 0 1px 1px 0 rgba(0,0,0,0.4);
+			border-right:0.5px solid black;
+			background-color:#962B27;
+		}
+
+		.nav ul ul {
+			position: absolute;
+			left: 0;
+			top: 100%;
+			visibility: hidden;
+			opacity: 0;
+		}
+	
+		.nav ul ul ul {
+			left: 100%;
+			top: 0;
+		}
+	
+		.nav li:hover{
+			background-color: #DE4C4C;
+			border-radius:3.5px 3.5px 0px 0px;
+		}
+	
+		.nav li:hover li{
+			background-color: white;
+		}
+	
+		.nav li li:hover{
+			background-color: white;
+		}
+	
+		.nav li li:hover li{
+			background-color: #bbb;
+		}
+	
+		.nav li li li:hover {
+			background-color: #999;
+		}
+	
+		.nav li:hover > ul {
+			visibility: visible;
+			opacity: 1;
+		}
+		
+		.content{
+		
+		backgroung-color:white;
+		}
+		
+		span{
+		white-space:nowrap;
+		}
+		
+		.box{
+			padding:3px;
+		}
+		
+		.content{
+				margin:5px;
+				padding:10px 40px 10px 10px;
+				white-space:normal;
+				line-height:1.2;
+				}
+		
+		.subcontent{
+				font-family:sans-serif;
+				font-size:85%;
+				
+					}
+					
+		.minisubcontent{
+				font-family:sans-serif;
+				font-size:80%;
+				}
+				
+		.percentage{
+				color:#EC0000;
+				font-weight:bold;
+				}
+						
+		.nav li .subcontent:hover{
+									background-color:#FFE391;
+									cursor:pointer;
+								}
+								
+		.nav li .minisubcontent:hover{
+									background-color:#FFE391;
+									cursor:pointer;
+								}
+								
+		.nav li:hover .box{
+						background-color:#BC2A2A;
+		}
+		
+		.nav li:hover .content{
+						background-color:white;
+						}
+		
+		.round_left{
+					border-radius:3.5px 0px 0px 0px;
+					}
+		
+		.round_right{
+					border-radius:0px 3.5px 0px 0px;
+					}
+		
+		.image{
+		position:absolute;
+		left:500;
+		top:0;
+		margin-left:70px;
+		}
+		
+	</style>
+	<!--[if lt IE 9]><script src="/r10/html5shiv.js"></script><![endif]-->
+</head>
+<body>
+	<div>
+
+		<nav class="nav">
+			<ul>
+				<li>
+					<a class="round_left" href="">Laptop</a>
+					<ul>
+						<li>
+							<div class="box">
+								<div class="content">
+									<span class="subcontent">Ultrabook</span>
+									<span class="subcontent">Notebook / Laptop 2-in-1</span>
+									<span class="subcontent">Notebook / Laptop</span>
+									<span class="minisubcontent">&nbsp; &rsaquo; &nbsp; Gaming</span>
+									</br>
+									<span class="minisubcontent">&nbsp; &rsaquo; &nbsp; <span class="percentage">% &nbsp;</span>Desigilate</span>
+									<span class="minisubcontent">&nbsp; &rsaquo; &nbsp; Genti notebook</span>
+									<span class="minisubcontent">&nbsp; &rsaquo; &nbsp; Memorii notebook</span>
+									<span class="minisubcontent">&nbsp; &rsaquo; &nbsp; Hard disk notebook</span>
+									<span class="minisubcontent">&nbsp; &rsaquo; &nbsp; Standuri/Coolere notebook</span>
+									<span class="minisubcontent">&nbsp; &rsaquo; &nbsp; Unitati optice notebook</span>
+									<span class="minisubcontent">&nbsp; &rsaquo; &nbsp; Adaptoare HDD Caddy</span>
+									<span class="minisubcontent">&nbsp; &rsaquo; &nbsp; Accesorii notebook</span>
+									<span class="minisubcontent">&nbsp; &rsaquo; &nbsp; Acumulatori notebook</span>
+									<span class="minisubcontent">&nbsp; &rsaquo; &nbsp; Incarcatoare notebook</span>
+									<span class="minisubcontent">&nbsp; &rsaquo; &nbsp; Docking stations</span>
+									<span class="minisubcontent">&nbsp; &rsaquo; &nbsp; Extensii garantie</span>
+									<span class="minisubcontent">&nbsp; &rsaquo; &nbsp; Adaptoare Bluetooth</span>
+									<img class="image" src="garage.jpg" alt="laptop" width="415.5" height="auto">
+								</div>
+							</div>
+						</li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="">Mobile</a>
+					<ul>
+						<li><a href=""></a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="">Sisteme Gaming & Office</a>
+					<ul>
+						<li><a href=""></a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="">Componente</a>
+					<ul>
+						<li><a href=""></a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="">Gaming</a>
+					<ul>
+						<li><a href=""></a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="">Televizoare</a>
+					<ul>
+						<li><a href=""></a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="">Periferice & Monitoare</a>
+					<ul>
+						<li><a href=""></a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="">Software</a>
+					<ul>
+						<li><a href=""></a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="">Printing</a>
+					<ul>
+						<li><a href=""></a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="">Retelistica & UPS</a>
+					<ul>
+						<li><a href=""></a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="">Audio/Video</a>
+					<ul>
+						<li><a href=""></a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="">Casa & Ingrijire</a>
+					<ul>
+						<li><a href=""></a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a class="round_right" href="">Mai mult</a>
+					<ul>
+						<li><a href=""></a></li>
+					</ul>
+				</li>
+				
+			</ul>
+		</nav>
+
+	</div>
+</body>
+</html>

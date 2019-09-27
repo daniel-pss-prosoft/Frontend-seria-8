@@ -1,0 +1,264 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dropdown 3</title>
+<style>
+
+*{
+margin:0;
+padding:0;
+}
+
+body, html {
+	background-image: url('pint.jpg');
+	height: 100%; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: lavender;
+	background-attachment:fixed;
+}
+
+ul {
+  list-style: none;
+  background-color: transparent;
+}
+
+ul ul {
+  opacity: 0.5;
+  position: absolute;
+  top: 160%;
+  visibility: hidden;
+  transition: all .4s ease;
+}
+
+ul ul ul {
+  top: 0%;
+  left: 160%;
+}
+
+ul ul li:hover > ul {
+  top: 0%;
+  left: 100%;
+  opacity: 1;
+  visibility: visible;
+}
+
+ul li:hover > ul {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
+}
+
+ul li {
+  float: left;
+  position: relative;
+  display:block;
+  background:  #525789;
+}
+
+ul ul li { float: none; }
+
+ul li {
+  background-color: #525789;
+  cursor: pointer;
+}
+
+ul a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  padding: 10px 15px;
+  width: 7em;
+  text-align: center;
+  text-shadow: 0px -1px 0px rgba(0,0,0,.2);
+  transition: 0.3s;
+}
+
+ul li:hover { background-color: #8497AF;}
+
+ul li a:hover { background-color: #8497AF;}
+
+.zoom{
+	transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.5); 
+	display:block;
+}
+
+
+
+.drunksign{
+float: left;
+    position: absolute;
+    top: 50%;
+    left: 77%;
+    width: 55px;
+    height: 60px;
+    margin-top: -60px;
+    margin-left: -60px;
+	animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(359deg);
+  }
+  to {
+    transform:  rotate(0deg);
+  }
+}
+
+
+</style>
+</head>
+
+<body>
+
+<ul class="main-navigation">
+  
+  <li><a href="#">Fermented drinks</a>
+    <ul>
+		<li><a href="">Beer</a>
+			<ul>
+				<li><a href="">Classification</a>
+					<ul>
+						<li><a href="">Types</a>
+							<ul>
+								<li><a href="">Ale</a></li>
+								<li><a href="">Lager</a></li>
+								<li><a href="">Malt</a></li>
+								<li><a href="">Stout</a></li>
+							</ul>
+						</li>
+						<li><a href="">Styles</a>
+							<ul>
+								<li><a href="">Amber</a></li>
+								<li><a href="">Blonde</a></li>
+								<li><a href="">Brown</a></li>
+								<li><a href="">Cream</a></li>
+								<li><a href="">Dark</a></li>
+								<li><a href="">Pale</a></li>
+								<li><a href="">Strong</a></li>
+								<li><a href="">Wheat</a></li>
+								<li><a href="">Red</a></li>
+								<li><a href="">Ipa</a></li>
+								<li><a href="">Lime</a></li>
+								<li><a href="">Pilsner</a></li>
+								<li><a href="">Golden</a></li>
+								<li><a href="">Fruit</a></li>
+								<li><a href="">Honey</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a href="">History</a></li>
+				<li><a href="">Beer Map</a></li>
+				<li><a href="">Curiosities</a></li>
+			</ul>
+		</li>
+		<li><a href="">Cyder</a>
+			<ul>
+				<li><a href="">Types of cyder</a></li>
+				<li><a href="">History</a></li>
+				<li><a href="">Cyder Map</a></li>
+			</ul>
+		</li>
+		<li><a href="">Mead</a>
+			<ul>
+				<li><a href="">History</a></li>
+			</ul>
+		</li>
+		<li><a href="">Pulque</a>
+			<ul>
+				<li><a href="">History</a></li>
+			</ul>
+		</li>
+		<li><a href="">Wine</a>
+			<ul>
+				<li><a href="">Types of wine</a></li>
+				<li><a href="">History</a></li>
+				<li><a href="">Wine Map</a></li>
+			</ul>
+		</li>
+	  </ul>
+	</li>
+	
+	<li><a href="#">Distilled drinks</a>
+	  <ul>
+		<li><a href="">History</a></li>
+		<li><a href="">Types of liquor</a>
+			<ul>
+				<li><a href="">Whiskey <img class="zoom" src="https://images-na.ssl-images-amazon.com/images/I/51bR3It1KJL._SX466_.jpg" width="50px" height="50px" style="margin-left:89px"></a>
+					<ul>
+						<li><a href="">Irish Whiskey</a></li>
+						<li><a href="">Scotch Whiskey</a></li>
+						<li><a href="">Japanese Whiskey</a></li>
+						<li><a href="">Canadian Pot Still Whiskey</a></li>
+						<li><a href="">Bourbon Whiskey</a></li>
+						<li><a href="">Tennessee Whiskey</a></li>
+						<li><a href="">Corn Whiskey</a></li>
+						<li><a href="">Blended Whiskey</a></li>
+						<li><a href="">Single Malt Whiskey</a></li>
+					</ul>
+				</li>
+				<li><a href="">Țuica <img class="zoom" src="https://s12emagst.akamaized.net/products/14016/14015011/images/res_0e9613e4bd0fe0b2dfe3c43d1043909e_full.jpg" width="50px" height="50px" style="margin-left:89px"></a></li>
+				<li><a href="">Brandy <img class="zoom" src="https://www.celticwhiskeyshop.com/image/Cognac/Bas-Armagnac-Delord-Napoleon.jpg" width="50px" height="50px" style="margin-left:89px"></a></li>
+				<li><a href="">Cachaça <img class="zoom" src="https://cdn.bautura-online.ro/media/catalog/product/cache/1/image/2000x/040ec09b1e35df139433887a97daa66f/c/a/cachaca-pitu-bautura-online.jpg" width="50px" height="50px" style="margin-left:89px"></a></li>
+				<li><a href="">Gin <img class="zoom" src="https://www.coopathome.ch/img/produkte/300_420/RGB/3050515_001.jpg?_=1486995135622" width="50px" height="50px" style="margin-left:89px"></a></li>
+				<li><a href="">Rum <img class="zoom" src="https://d3czfiwbzom72b.cloudfront.net/wp-content/uploads/2018/09/003686-CAPT-MORGAN-SPICED-w.png" width="50px" height="50px" style="margin-left:89px"></a></li>
+				<li><a href="">Schnapps <img class="zoom" src="https://products3.imgix.drizly.com/ci-arrow-peach-schnapps-264ebad2a8bd0b7d.jpeg?auto=format%2Ccompress&fm=jpeg&q=20" width="50px" height="50px" style="margin-left:89px"></a></li>
+				<li><a href="">Tequila <img class="zoom" src="https://images-na.ssl-images-amazon.com/images/I/713-5FCrudL._SX569_.jpg" width="50px" height="50px" style="margin-left:89px"></a></li>
+				<li><a href="">Vodca <img class="zoom" src="https://s12emagst.akamaized.net/products/692/691688/images/res_35714246b15c8b919226dc10be0c8f67_full.jpg" width="50px" height="50px" style="margin-left:89px"></a></li>
+				<li><a href="">Liqueur <img class="zoom" src="https://cdn.bautura-online.ro/media/catalog/product/cache/1/image/2000x/040ec09b1e35df139433887a97daa66f/t/a/tatratea-72.jpg" width="50px" height="50px" style="margin-left:89px"></a></li>
+				<li><a href="">Sambuca <img class="zoom" src="https://cdn2.bigcommerce.com/server2800/a04d0/products/13089/images/13885/ramazzotti-sambuca-liqueur__15887.1503318331.1280.1280.jpg?c=2" width="50px" height="50px" style="margin-left:89px"></a></li>
+			</ul>
+      </ul>
+	</li>
+	
+	<li><a href="#">Health effects</a>
+	  <ul>
+		<li><a href="">Short-term effects</a></li>
+		<li><a href="">Long-term effects</a></li>
+		<li><a href="">Congeners</a></li>
+	  </ul>
+	</li>
+	
+	<li><a href="#">Amount of use</a>
+	  <ul>
+		<li><a href="">Map</a></li>
+	  </ul>
+	</li>
+	
+	
+	<li><a href="#">Reasons for use</a>
+	  <ul>
+		<li><a href="">Various reasons</a></li>
+		<li><a href="">Cooking with alcohol</a></li>
+	  </ul>
+	</li>
+	
+	<li><a href="#">Alcohol measurement</a>
+	  <ul>
+		<li><a href="">Alcohol concentration</a></li>
+		<li><a href="">Serving measures</a>
+			<ul>
+				<li><a href="">Shot sizes</a></li>
+				<li><a href="">Serving measures</a></li>
+			</ul>
+	  </ul>
+	</li>
+	
+	<li><a href="#">Laws</a></li>
+	
+	<li><a href="#">General History</a></li>
+	
+</ul>
+
+<img class="drunksign" src="drunksign.png" alt="Attention ! Drunk rednecks !">
+
+</body>
+</html>
