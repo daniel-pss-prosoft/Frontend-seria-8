@@ -1,0 +1,351 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url("http://blog.hostbaby.com/wp-content/uploads/2014/03/PaintSquares_1920x1234.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center top;
+    font-family: sans-serif;
+
+}
+
+.menu-bar
+{
+    background: rgb(0, 100, 0);
+    text-align: center;
+}
+
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.active, .menu-bar ul li:hover
+{
+    background-color: #2bab0d;
+    border-radius: 3px;
+}
+
+/*#region sub-menu-p1-copil*/
+.sub-menu-p1-copil
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-p1-copil
+{
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 100, 0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-p1-copil ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-p1-copil ul li a:hover
+{
+    color: #b2ff00;
+}
+.sub-menu-p1-copil:hover .sub-menu-c1-subcopil
+{
+    position: absolute;
+    display: block;
+    margin-top: -10px;
+    margin-left: 120px;
+    background: rgb(0,100,0);
+}
+.sub-menu-p1-copil:hover .sub-menu-c2-subcopil
+{
+    position: absolute;
+    display: block;
+    margin-top: -10px;
+    margin-left: 120px;
+    background: rgb(0,100,0);
+}
+.sub-menu-p1-copil:hover .sub-menu-c3-subcopil
+{
+    position: absolute;
+    display: block;
+    margin-top: -10px;
+    margin-left: 120px;
+    background: rgb(0,100,0);
+}
+.sub-menu-p1-copil:hover .sub-menu-c4-subcopil
+{
+    position: absolute;
+    display: block;
+    margin-top: -10px;
+    margin-left: 120px;
+    background: rgb(0,100,0);
+}
+.sub-menu-p1-copil:hover .sub-menu-c5-subcopil
+{
+    position: absolute;
+    display: block;
+    margin-top: -10px;
+    margin-left: 120px;
+    background: rgb(0,100,0);
+}
+.sub-menu-p1-copil:hover .sub-menu-c6-subcopil
+{
+    position: absolute;
+    display: block;
+    margin-top: -10px;
+    margin-left: 120px;
+    background: rgb(0,100,0);
+}
+.sub-menu-p1-copil:hover .sub-menu-c7-subcopil
+{
+    position: absolute;
+    display: block;
+    margin-top: -10px;
+    margin-left: 120px;
+    background: rgb(0,100,0);
+}
+/*#endregion sub-menu-p1-copil*/
+
+/*#region sub-menu-p2-copil*/
+.sub-menu-p2-copil
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-p2-copil
+{
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 100, 0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-p2-copil ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-p2-copil ul li a:hover
+{
+    color: #b2ff00;
+}
+.sub-menu-p2-copil:hover .sub-menu-c1-subcopil
+{
+    position: absolute;
+    display: block;
+    margin-top: -10px;
+    margin-left: 120px;
+    background: rgb(0,100,0);
+}
+/*#endregion sub-menu-p2-copil*/
+
+/*#region sub-menu-p3-copil*/
+.sub-menu-p3-copil
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-p3-copil
+{
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 100, 0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-p3-copil ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-p3-copil ul li a:hover
+{
+    color: #b2ff00;
+}
+.sub-menu-p3-copil:hover .sub-menu-c1-subcopil
+{
+    position: absolute;
+    display: block;
+    margin-top: -10px;
+    margin-left: 120px;
+    background: rgb(0,100,0);
+}
+/*#endregion sub-menu-p3-copil*/
+
+/*#region sub-menu-p4-copil*/
+.sub-menu-p4-copil
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-p4-copil
+{
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 100, 0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-p4-copil ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-p4-copil ul li a:hover
+{
+    color: #b2ff00;
+}
+.sub-menu-p4-copil:hover .sub-menu-c1-subcopil
+{
+    position: absolute;
+    display: block;
+    margin-top: -10px;
+    margin-left: 120px;
+    background: rgb(0,100,0);
+}
+/*#endregion sub-menu-p4-copil*/
+
+/*#region sub-menu-p5-copil*/
+.sub-menu-p5-copil
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-p5-copil
+{
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 100, 0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-p5-copil ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-p5-copil ul li a:hover
+{
+    color: #b2ff00;
+}
+.sub-menu-p5-copil:hover .sub-menu-c1-subcopil
+{
+    position: absolute;
+    display: block;
+    margin-top: -10px;
+    margin-left: 120px;
+    background: rgb(0,100,0);
+}
+/*#endregion sub-menu-p5-copil*/
+
+/*#region sub-menu-p6-copil*/
+.sub-menu-p6-copil
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-p6-copil
+{
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 100, 0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-p6-copil ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-p6-copil ul li a:hover
+{
+    color: #b2ff00;
+}
+.sub-menu-p6-copil:hover .sub-menu-c1-subcopil
+{
+    position: absolute;
+    display: block;
+    margin-top: -10px;
+    margin-left: 120px;
+    background: rgb(0,100,0);
+}
+/*#endregion sub-menu-p6-copil*/
+
+/*#region sub-menu-p7-copil*/
+.sub-menu-p7-copil
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-p7-copil
+{
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 100, 0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-p7-copil ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-p7-copil ul li a:hover
+{
+    color: #b2ff00;
+}
+.sub-menu-p7-copil:hover .sub-menu-c1-subcopil
+{
+    position: absolute;
+    display: block;
+    margin-top: -10px;
+    margin-left: 120px;
+    background: rgb(0,100,0);
+}
+/*#endregion sub-menu-p7-copil*/
+
+/*#region .sub-menu-c-subcopil*/
+.sub-menu-c1-subcopil
+{
+    display: none;
+}
+.sub-menu-c2-subcopil
+{
+    display: none;
+}
+.sub-menu-c3-subcopil
+{
+    display: none;
+}
+.sub-menu-c4-subcopil
+{
+    display: none;
+}
+.sub-menu-c5-subcopil
+{
+    display: none;
+}
+.sub-menu-c6-subcopil
+{
+    display: none;
+}
+.sub-menu-c7-subcopil
+{
+    display: none;
+}
+/*#endregion .sub-menu-c-subcopil*/
