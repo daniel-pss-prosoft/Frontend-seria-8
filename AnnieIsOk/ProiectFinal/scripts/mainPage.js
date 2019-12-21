@@ -161,34 +161,3 @@ window.addEventListener("DOMContentLoaded", function() {
   itemsCount();
 
 });
-// window.addEventListener("load", function(event2) {
-//   function addToCart() {
-//     var cartBtn = document.querySelectorAll(".add-to-cart");
-//     var arrayCart = Array.from(cartBtn);
-//     arrayCart.forEach(function(btn){
-//       btn.addEventListener("click", function(event){
-//         console.log(event.target);
-//       });
-//     });
-//   };
-//   addToCart();
-// });
-
-// window.addEventListener("load", function() {
-//       var cartBtn = document.querySelectorAll(".add-to-cart");
-//     var arrayCart = Array.from(cartBtn);
-//     arrayCart.forEach(function(btn){
-//       btn.addEventListener("click", function(event){
-//         console.log(event.target);
-//       });
-//     });
-// });
-
-// window.onload = function() {
-
-
-// }
-// if (document.readyState === "complete") {
-
-// };
-
