@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Furniture Inc Cart</title>
+        <link rel="shortcut icon"  href="images/imagesHeader/favicon.png" type="image/vnd.microsoft.icon">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../stylesheets/cart.css" type="text/css">   
+    </head>
+    <body>
+            <h3>Your Shopping Cart</h3>
+            <i class="fa fa-shopping-cart"></i>
+            <div id="main-content" class="hidden">
+                <p>Your shopping bag is empty.</p>
+            </div>
+        <div id="wrapper">
+            <div id="items">
+                <div id="cart-product-template" class="hidden">
+                    <div id="product-name">Product Name</div>
+                    <img id="product-photo" src="">
+                    <div id="product-price">Product Price <span id="currency">RON</span></div>
+                    <div id="product-quantity">Quantity</div>
+                    <input type="button" value="-" id="minus">
+                    <span id="count"> 1</span>
+                    <input type="button" value="+" id="plus">
+                    <div id="subtotal">Subtotal</div>
+                    <button id="remove-item">Remove from Cart</button> 
+                </div>
+            <div id="amounts" class="hidden">
+                <span id="total-amount"> Total Amount</span>
+                <button>Checkout</button>
+            </div>
+        </div>
+        <script src="../scripts/cart.js"></script>
+    </body>
+</html>
