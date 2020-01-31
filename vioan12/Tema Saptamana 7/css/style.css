@@ -1,0 +1,85 @@
+.mouseIn {
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    text-decoration: line-through;
+}
+
+.mouseOut {
+    color: red;
+    font-family: default;
+}
+
+.exercitiul7 {
+    background-color: #cccc33;
+    width: 25%;
+    height: auto;
+}
+
+#paragraf71{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#paragraf72{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.exercitiul8 {
+    background-color: aquamarine;
+    width: 25%;
+    height: auto;
+}
+
+#paragraf81{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#paragraf82{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.exercitiul9{
+    background-color: #cc3333;
+    width: 25%;
+    height: auto;
+    text-align: center;
+}
+
+.exercitiul10{
+    background-color: #3380cc;
+    width: 25%;
+    height: auto;
+    text-align: center;
+}
+
+#paragraf9{
+    visibility: hidden;
+}
+
+#paragraf101{
+    visibility: hidden;
+}
+
+#paragraf102{
+    visibility: hidden;
+}
+
+#paragraf103{
+    visibility: hidden;
+}
+
+#paragraf104{
+    visibility: hidden;
+}
